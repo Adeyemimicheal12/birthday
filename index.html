@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="firstsection">
+        <video autoplay loop muted plays-inline class="background">
+            <source  src="video.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <br><br><br><br><br><br>    
+            <h1 class="main-wish">Happy Birthday, Adeyemi Damilare Omoboy!🎉🔥</h1>
+            <!-- <div class="balloons">
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div> -->
+        </div>
+        <br><br><br><br><br><br>    
+
+        <button class="bttn" id="revealButton">Click for more surprises!</button>
+        <div id="surprise" class="hidden">
+            <h2>More Birthday Wishes!</h2>
+            <p>May your day be filled with joy and laughter!</p>
+            
+        </div>
+    </div>
+    </div>
+
+
+    <script>
+    document.getElementById('revealButton').addEventListener('click', function() {
+    document.getElementById('surprise').classList.toggle('hidden');
+});
+
+    </script>
+</body>
+</html>
