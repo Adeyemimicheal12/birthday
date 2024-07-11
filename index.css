@@ -70,11 +70,13 @@
 
 .hidden {
     display: none;
+    color: white;
 }
 
 #surprise {
     margin-top: 20px;
 }
+
 
 .cake {
     width: 200px;
